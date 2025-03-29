@@ -4,8 +4,16 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.container {
+    background-color: #343746;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+}
+
 header {
-    background-color: #333;
+    background-color: #282a36;
     color: white;
     padding: 1rem;
     text-align: center;
