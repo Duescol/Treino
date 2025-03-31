@@ -1,3 +1,20 @@
+:root {
+    --bg-color: #21222c;
+    --container-bg: #343746;
+    --header-bg: #282a36;
+    --text-color: white;
+    --border-color: #343746;
+}
+
+[data-theme="light"] {
+    /* Tema claro */
+    --bg-color: #f5f5f5;
+    --container-bg: #ffffff;
+    --header-bg: #e0e0e0;
+    --text-color: #333333;
+    --border-color: #cccccc;
+}
+
 body {
     color: white;
     background-color: #21222c;
@@ -34,6 +51,7 @@ footer {
 }
 
 img {
+    border: 6px solid #343746;
     max-width: 100%;
     height: auto;
     border-radius: 25px;
